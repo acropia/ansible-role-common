@@ -28,6 +28,9 @@
 - include: ntp.yml
   tags: ntp
 
+- include: rkhunter.yml
+  tags: rkhunter
+
 - include: vim.yml
   tags: vim
 

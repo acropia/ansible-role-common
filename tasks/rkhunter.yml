@@ -1,0 +1,5 @@
+---
+- name: Install Rootkit Hunter (rkhunter)
+  yum:
+    pkg: rkhunter
+    state: installed
