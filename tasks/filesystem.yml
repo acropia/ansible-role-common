@@ -1,0 +1,6 @@
+---
+- name: Configure /proc filesystem in fstab
+  lineinfile:
+    dest: /etc/fstab
+    regexp: '^proc'
+    line: 'proc    /proc    proc    defaults,hidepid=2     0     0'

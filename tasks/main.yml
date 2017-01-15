@@ -22,6 +22,9 @@
 - include: fail2ban.yml
   tags: fail2ban
 
+- include: filesystem.yml
+  tags: filesystem
+
 - include: git.yml
   tags: git
 
