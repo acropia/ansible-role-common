@@ -28,6 +28,9 @@
 - include: git.yml
   tags: git
 
+- include: hosts.yml
+  tags: hosts
+
 - include: kernel.yml
   tags: kernel
 
