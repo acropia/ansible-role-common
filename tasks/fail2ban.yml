@@ -1,0 +1,9 @@
+---
+- name: Install fail2ban
+  yum:
+    name: fail2ban
+    state: installed
+
+- name: Install jail.local
+  template: src='fail2ban/jail.local.j2' dest='/etc/fail2ban/jail.local'
+

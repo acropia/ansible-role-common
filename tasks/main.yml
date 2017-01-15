@@ -12,3 +12,6 @@
 
 - include: bind-utils.yml
   tags: bind-utils
+
+- include: fail2ban.yml
+  tags: fail2ban
