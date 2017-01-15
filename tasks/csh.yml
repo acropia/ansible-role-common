@@ -1,0 +1,5 @@
+---
+- name: Replace csh.cshrc
+  template:
+    src: 'csh/csh.cshrc.j2'
+    dest: '/etc/csh.cshrc'

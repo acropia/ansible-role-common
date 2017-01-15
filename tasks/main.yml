@@ -16,6 +16,9 @@
 - include: bind-utils.yml
   tags: bind-utils
 
+- include: csh.yml
+  tags: csh
+
 - include: fail2ban.yml
   tags: fail2ban
 
