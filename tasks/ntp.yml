@@ -1,0 +1,21 @@
+---
+- name: Install ntp
+  yum:
+    name: ntp
+    state: installed
+
+- name: Replace ntp.conf
+  template:
+    src: 'ntp/ntp.conf.j2'
+    dest: '/etc/ntp.conf'
+
+- name: Replace step-tickers
+  template:
+    src: 'ntp/step-tickers.j2'
+    dest: '/etc/ntp/step-tickers'
+
+- name: Enable and start ntpd service
+  systemd:
+    name: ntpd
+    enabled: yes
+    state: started
