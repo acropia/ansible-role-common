@@ -25,3 +25,5 @@
 - include: ntp.yml
   tags: ntp
 
+- include: vim.yml
+  tags: vim
