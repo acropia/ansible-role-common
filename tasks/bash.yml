@@ -4,3 +4,8 @@
     src: 'bash/sessiontimeout.sh.j2'
     dest: '/etc/profile.d/sessiontimeout.sh'
     mode: '740'
+
+- name: Replace bashrc
+  template:
+    src: 'bash/bashrc.j2'
+    dest: '/etc/bashrc'
