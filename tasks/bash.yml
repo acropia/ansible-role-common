@@ -1,0 +1,6 @@
+---
+- name: Install session timeout script
+  template:
+    src: 'bash/sessiontimeout.sh.j2'
+    dest: '/etc/profile.d/sessiontimeout.sh'
+    mode: '740'

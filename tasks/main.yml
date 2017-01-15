@@ -10,6 +10,9 @@
 - include: arpwatch.yml
   tags: arpwatch
 
+- include: bash.yml
+  tags: bash
+
 - include: bind-utils.yml
   tags: bind-utils
 
