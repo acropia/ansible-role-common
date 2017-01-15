@@ -25,6 +25,9 @@
 - include: git.yml
   tags: git
 
+- include: kernel.yml
+  tags: kernel
+
 - include: man.yml
   tags: man
 
