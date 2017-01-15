@@ -1,0 +1,5 @@
+---
+- name: Replace login.defs
+  template:
+    src: 'login.defs.j2'
+    dest: '/etc/login.defs'
