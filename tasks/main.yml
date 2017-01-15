@@ -34,6 +34,9 @@
 - include: man.yml
   tags: man
 
+- include: modprobe.yml
+  tags: modprobe
+
 - include: ntp.yml
   tags: ntp
 

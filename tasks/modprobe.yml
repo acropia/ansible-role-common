@@ -1,0 +1,5 @@
+---
+- name: Add modprobe blacklist
+  template:
+    src: 'modprobe/modprobe_blacklist.conf.j2'
+    dest: '/etc/modprobe.d/blacklist.conf'
