@@ -1,0 +1,5 @@
+---
+- name: Install man
+  yum:
+    name: man
+    state: installed
