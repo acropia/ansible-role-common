@@ -1,2 +1,11 @@
 ---
-# tasks file for common
+- name: Install Extra Packages for Enterprise Linux (EPEL) repo
+  yum:
+    name: epel-release
+    state: installed
+
+- include: aide.yml
+  tags: aide
+
+- include: bind-utils.yml
+  tags: bind-utils

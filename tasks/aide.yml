@@ -1,0 +1,5 @@
+---
+- name: Install Advanced Intrusion Detection Environment (aide)
+  yum:
+    name: aide
+    state: installed

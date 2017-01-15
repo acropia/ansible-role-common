@@ -1,0 +1,5 @@
+---
+- name: Install bind-utils (dig, host and nslookup)
+  yum:
+    name: bind-utils
+    state: installed
