@@ -31,6 +31,9 @@
 - include: hosts.yml
   tags: hosts
 
+- include: htop.yml
+  tags: htop
+
 - include: kernel.yml
   tags: kernel
 
