@@ -52,6 +52,9 @@
 - include: rkhunter.yml
   tags: rkhunter
 
+- include: screen.yml
+  tags: screen
+
 - include: vim.yml
   tags: vim
 

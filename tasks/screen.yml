@@ -1,0 +1,5 @@
+---
+- name: Install screen
+  yum:
+    name: screen
+    state: installed
