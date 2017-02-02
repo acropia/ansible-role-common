@@ -12,5 +12,5 @@
 
 - name: Replace profile
   template:
-    src: 'profile.j2'
+    src: 'bash/profile.j2'
     dest: '/etc/profile'
