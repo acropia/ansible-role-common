@@ -1,0 +1,5 @@
+---
+- name: Install iotop
+  yum:
+    name: iotop
+    state: installed
