@@ -1,0 +1,5 @@
+---
+- name: Install mtr
+  yum:
+    name: mtr
+    state: installed
