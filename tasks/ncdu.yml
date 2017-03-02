@@ -1,0 +1,15 @@
+---
+- name: Create source directory for ncdu
+  file:
+    path: /usr/local/src/ncdu
+    state: directory
+
+- name: Copy ncdu installer to server
+  copy:
+    src: ncdu/ncdu-1.12-18.1.x86_64.rpm
+    dest: /usr/local/src/ncdu/ncdu-1.12-18.1.x86_64.rpm
+
+- name: Install ncdu
+  yum:
+    name: ncdu
+    state: installed
