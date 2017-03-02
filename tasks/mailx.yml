@@ -1,0 +1,5 @@
+---
+- name: Install mailx
+  yum:
+    name: mailx
+    state: installed
