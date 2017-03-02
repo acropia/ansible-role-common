@@ -1,0 +1,5 @@
+---
+- name: Install traceroute
+  yum:
+    name: traceroute
+    state: installed
