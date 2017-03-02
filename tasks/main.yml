@@ -19,6 +19,9 @@
 - include: csh.yml
   tags: csh
 
+- include: dstat.yml
+  tags: dstat
+
 - include: fail2ban.yml
   tags: fail2ban
 
@@ -34,17 +37,35 @@
 - include: htop.yml
   tags: htop
 
+- include: iftop.yml
+  tags: iftop
+
+- include: iotop.yml
+  tags: iotop
+
 - include: kernel.yml
   tags: kernel
 
 - include: login.yml
   tags: login
 
+- include: mailx.yml
+  tags: mailx
+
 - include: man.yml
   tags: man
 
 - include: modprobe.yml
   tags: modprobe
+
+- include: mtr.yml
+  tags: mtr
+
+- include: ncdu.yml
+  tags: ncdu
+
+- include: net-tools.yml
+  tags: net-tools
 
 - include: ntp.yml
   tags: ntp
@@ -54,6 +75,12 @@
 
 - include: screen.yml
   tags: screen
+
+- include: strace.yml
+  tags: strace
+
+- include: traceroute.yml
+  tags: traceroute
 
 - include: vim.yml
   tags: vim
