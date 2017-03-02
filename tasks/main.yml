@@ -88,5 +88,5 @@
 - include: wget.yml
   tags: wget
 
-- include: yum.yml
-  tags: yum
+- include: yum-utils.yml
+  tags: yum-utils

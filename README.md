@@ -1,7 +1,38 @@
 Role Name
 =========
 
-Install and configure common applications and settings
+Install and configure common applications and settings every sysadmin needs on a CentOS Linux 7+ server.
+
+Tools installed:
+- AIDE
+- arpwatch
+- bind-utils (dig, host, nslookup)
+- Dstat
+- fail2ban
+- git
+- htop
+- iftop
+- iotop
+- mailx
+- man
+- mtr
+- Ncdu
+- net-tools (netstat, etc.)
+- Rootkit Hunter
+- screen
+- strace
+- traceroute
+- vim
+- wget
+
+Other settings
+- Filesystem security (hidepid for /proc)
+- Hosts file
+- Kernel configuration
+- Login defaults (password age, etc.)
+- Module blacklists (USB storage, fireware, etc.)
+- NTP configuration
+
 
 Requirements
 ------------
