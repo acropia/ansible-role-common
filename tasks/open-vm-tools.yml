@@ -1,0 +1,5 @@
+---
+- name: Install open-vm-tools
+  yum: 
+    name: open-vm-tools
+    state: installed

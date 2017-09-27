@@ -71,6 +71,9 @@
 - include: ntp.yml
   tags: ntp
 
+- include: open-vm-tools.yml
+  tags: open-vm-tools
+
 - include: rkhunter.yml
   tags: rkhunter
 
