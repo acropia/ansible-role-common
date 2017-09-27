@@ -7,6 +7,15 @@
 - name: Install jail.local
   template: src='fail2ban/jail.local.j2' dest='/etc/fail2ban/jail.local'
 
+- name: Create directory for fail2ban pid
+  file:
+    path: /var/run/fail2ban
+    state: directory
+    owner: root
+    group: root
+    mode: 0755
+    seuser: system_u
+
 - name: Enable and start fail2ban service
   systemd:
     name: fail2ban
