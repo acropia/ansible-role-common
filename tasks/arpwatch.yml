@@ -3,9 +3,11 @@
   yum:
     name: arpwatch
     state: installed
+  become: true
 
 - name: Enable and start arpwatch service
   systemd:
     name: arpwatch
     enabled: yes
     state: started
+  become: true
